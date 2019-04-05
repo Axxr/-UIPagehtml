@@ -1,0 +1,40 @@
+.header-home{
+  background-image: -webkit-linear-gradient(145deg,#faa61f 0%, #ed1847 100%);
+  position: relative;
+  padding-top: 185px;
+  padding-bottom: 180px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.col-header-text{
+  color: white;
+}
+
+.col-header-text h1{
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 0.05px;
+  font-weight: 300;
+  color: white;
+}
+
+.col-header-text h1 span{
+  font-weight: 600;
+}
+
+.col-header-text p{
+  font-size: 16px;
+  line-height: 30px;
+  margin: 25px 0 54px;
+  text-align: justify;
+}
+
+.col-header-img{
+  position: relative;
+}
+
+.col-header-img img{
+  position: absolute;
+  
+}
