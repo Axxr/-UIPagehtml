@@ -38,3 +38,47 @@
   position: absolute;
   
 }
+.col-header-img img.img-header-lg{
+  
+  top: -73px;
+  z-index: 20;
+}
+
+.col-header-img img.img-header-sm{
+  
+  top: 100px;
+  z-index: 20;
+}
+
+.banner_btn{
+  font-size: 14px;
+  line-height: 58px;
+  text-align: center !important;
+  font-family: tahoma;
+  font-weight: 700;
+  width: 220px;
+  height: 60px;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  transition: all 0.5s linear;
+  color: #272929;
+  background: white;
+  margin-right: 10px;
+}
+
+.banner_btn:hover{
+  text-decoration: none;
+}
+
+.social{
+  margin-top: 90px;
+}
+
+.social a{
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
