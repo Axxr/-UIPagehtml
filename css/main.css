@@ -82,3 +82,54 @@
   margin-right: 10px;
   margin-left: 20px;
 }
+.navbar{
+  padding: 24px 0;
+  border-bottom: none !important;
+  transition: all 0.5e ease-in-out; 
+}
+
+.navbar ul li a{
+  color: white !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 13px;
+  transition: all 0.5e ease-in-out;
+  background: transparent !important;
+}
+
+.navbar ul li a:hover, .navbar ul li a:focus{
+  color: deepskyblue !important;
+  background: none !important;
+}
+
+.navbar-toggler{
+  border: 1px solid white !important;
+  color: white !important;
+  transition: all 0.5e ease-in;
+}
+
+
+.navbar-toggler:hover{
+  background-color: deepskyblue !important;
+}
+
+.navbar-expand-lg .navbar-collapse{
+  background-color: transparent !important;
+}
+
+.location{
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.navbar-expand-lg{
+  background-color: transparent !important;
+}
+
+.navbar-brand{ 
+  font-weight: bold;
+}
+
+
+
